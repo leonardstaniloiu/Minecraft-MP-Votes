@@ -31,7 +31,7 @@ def check_vote_status(api_key: str, username: str) -> dict:
             "success": False
         }
     
-api_key = st.secrets["minecraft_mp_api_key"]
+api_key = st.secrets["minecraft_mp_server_key"]
 
 st.title("Check if an user has voted")
 st.divider()
